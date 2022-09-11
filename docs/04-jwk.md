@@ -334,7 +334,7 @@ source: [examples/jwk_readfile_with_pem_example_test.go](https://github.com/lest
 
 ## Parse a key as a struct field
 
-As `jwk.Key` is an interface, it can't directly be used as an argument in `json.Unmarsshal`.
+As `jwk.Key` is an interface, it can't directly be used as an argument in `json.Unmarshal`.
 For example, the following would fail:
 
 ```go
